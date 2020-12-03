@@ -1,0 +1,23 @@
+{
+    "_start": "hello",
+    "hello": {
+        "text": "Hello I'm an example bot 👋🏼",
+        "next": "getName"
+    },
+    "getName": {
+        "text": "First up, what's your name?",
+        "input": "text",
+        "placeholder": "Enter your name",
+        "field": "name",
+        "next": "favouriteEmoji"
+    },
+    "favouriteEmoji": {
+        "text": "What food do you want?",
+        "field": "food",
+        "options": [
+            {"value": "small", "text": "🥕"},
+            {"value": "medium", "text": "🍕"},
+            {"value": "big", "text": "🐔"}
+        ]
+    }
+}
